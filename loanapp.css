@@ -1,0 +1,474 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: italic;
+  box-sizing: border-box;
+
+}
+
+/*.all {
+  background-image: url("../Desktop/loanapp/sky2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  z-index: -1;
+  position: absolute;
+}*/
+.section2{
+  background-color: black;
+opacity: 0.7;
+position: static;
+z-index: -1;
+margin-top: 0px;
+
+}
+.section{
+  background:rgba(0, 0, 0, 0) url("../Desktop/loanapp/loan1.jpg") no-repeat fixed center center/cover;
+ 
+}
+.content7{
+  background:rgba(0, 0, 0, 0) url("../Desktop/loanapp/loan3.jpg") no-repeat fixed center center/cover;
+ 
+ 
+}
+.content6{
+ background-color: black;
+ opacity: 0.7;
+ position: static;
+z-index: -1;
+ 
+  
+}
+/******************navbar styling-----------*/
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+
+  position: sticky;
+  margin-top: 0px;
+  top: 0%;
+  outline: 0px;
+
+  height: 50px;
+  width: 100%;
+color: white;
+  /*background:linear-gradient(rgb(155, 78, 228),rgb(235, 82, 82));*/
+  background-color:black;
+  z-index: 3;
+}
+.navbar .logo img{
+  margin-left: 40px;
+  margin-top: 8px;
+}
+
+.navbar .list ul {
+  margin-top: 1px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(20px, auto));
+
+}
+
+.navbar .list ul li {
+  list-style-type: none;
+  margin-top: 1px;
+  text-transform: uppercase;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 180px;
+  height: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu when the dropdown button is clicked */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/** content starts now*/
+
+/***************card1*********************************/
+/*div .content {
+  margin-top: 40px;
+  position: static;
+
+  background-image: url("../Desktop/pics/gif1.png");
+  background-image: url("../Desktop/pics/gif1.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  z-index: 0;
+}
+
+.content #card1 {
+  text-align: center;
+  padding: 200px;
+  position: static;
+  z-index: 0;
+
+}
+
+.content #card1 .button {
+  padding: 19px;
+  background-color: black;
+  color: #f9f9f9;
+  margin-right: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}*/
+
+/*********************content 2 styling *************************/
+
+.content2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, auto));
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  position: static;
+ 
+  padding: 120px;
+  z-index: 0;
+
+}
+
+.content2 #card2 {
+
+  margin-top: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 20px;
+  justify-content: center;
+
+}
+
+.content2 #card2 p {
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 60px;
+  line-height: 30px;
+  
+  
+}
+
+/*****************content 3 styling********************/
+.content3 {
+
+  height: 700px;
+  width: 100%;
+margin-top: 0px;
+  position: static;
+  z-index: 0;
+
+
+}
+.content3 #card3 button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+ margin-top: 30px;
+  margin-bottom: 0px;
+}
+.content3 #card3 #btn{
+  margin-top: 120px;
+}
+.content3 #card3 #btn2{
+  margin-top: 60px;
+}
+
+.content3 #card3 button:hover{
+  background-color: white;
+  border:1px solid white;
+  color: black;
+}
+
+.content3 #card3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, auto));
+ padding: 50px;
+margin-left: 90px;
+margin-right: 40px;
+
+}
+.content3 #img{
+  margin-top: 30px;
+
+}
+
+
+.content3 #card3 .a1 {
+  border: 1px solid  gainsboro;
+  border-radius: 5px;
+  padding: 10px;
+ color:white;
+  text-align: center;
+  height: 380px;
+  width: 320px;
+  text-transform: capitalize;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.content3 .h1{
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  line-height: 25px;
+  
+}
+.content3 .p{
+  color: #f9f9f9;
+  text-align: center;
+  margin-top: 30px;
+}
+.content3 .h1{
+  text-transform: capitalize;
+  font-size: 50px;
+}
+.content3 #card3 .a1 p{
+  color: white;
+  margin-top: 10px;
+}
+
+/*****************card4 styling---------*/
+
+.content4 {
+  height: 1300px;
+  width: 100%;
+  position: static;
+ background-color: whitesmoke;
+  padding: 20px;
+  
+  
+
+}
+
+.card4{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(350px, auto));
+ 
+   margin-top: -150px;
+  margin-left: 7%;
+  margin-right: 20%;
+  position: static;
+  z-index: 0;
+  
+  
+}
+.content4 .card4 #b1,#b2,#b3,#b4,#b5,#b6,#card4 {
+  border: 1px solid whitesmoke ;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+  line-height: 40px;
+  text-transform: capitalize;
+  
+  margin-top: 10px;
+}
+#card4{
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  color: #f9f9f9;
+ margin: 70px;
+  z-index: -1;
+  background:  black;
+}
+#card44{
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  color: #f9f9f9;
+ text-align: center;
+ margin-left: 70%;
+  z-index: -1;
+  background:  black;
+  margin-top: -70px;
+}
+#card44 img{
+  margin-top: 90px;
+}
+
+
+.content4 .card4 h1{
+  font-size: 20px;
+} 
+
+.content4 #card4 p {
+text-align: justify;
+}
+.content4 .card4 img{
+height: 150px;
+width: 150px;
+}
+.content4 #card4 h4 {
+  
+  text-justify: auto;
+}
+.content4 #card4{
+  margin-right: 20px;
+}
+/************************card 6 styling--------------*/
+.content6 {
+  /*display: grid;
+  grid-template-columns: repeat(2, minmax(180px, auto));*/
+  height: 500px;
+  width: 100%;
+ text-align: center;
+  position: static;
+  /*border-top-left-radius: 60px;
+  border-top-right-radius: 60px;*/
+  padding: 120px;
+  z-index: -2;
+  color: white;
+
+}
+.content6 #card6 h1{
+  margin-left: 50px;
+  text-transform: uppercase;
+  color: linear-gradient(rgb(155, 78, 228),rgb(235, 82, 82));
+  color:white;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+.content6 #card6 p{
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  margin-right: 70px;
+  margin-left: 50px;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+  
+}
+.content6 #card6 button{
+  padding: 20px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-left: 70px;
+  text-transform: capitalize;
+}
+.content6 #card6 button:hover{
+  background-color:white;
+  color:black;
+  border: 1px solid white;
+}
+/*.content6  #img6 img{
+  border-radius: 30px;
+  
+  height: 350px;
+  width: 80%;
+  margin-left: 50px;
+}*/
+/****************card6--------------*/
+.content5 {
+
+  height: 700px;
+  width: 100%;
+
+  position: static;
+  z-index: 0;
+
+
+}
+.content5 #card5 h1{
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.content5 #card5{
+  margin: 90px;
+  line-height: 30px;
+ 
+ 
+}
+.content5 #card5 h4{
+  margin-top:15px ;
+}
+
+.content5 #card5 h4,.p,p{
+  margin-left: 20px;
+  color: black;
+  text-align: left;
+
+}
+.content5 #card5 #btn1{
+  margin-top: 30px;
+  border: 1px solid grey;
+  background-color: black;
+  border-radius: 8px;
+ color: aliceblue;
+  padding: 20px;
+  margin-left: 45%;
+  
+}
+/*8888888888888*/
+.content8{
+  height: 370px;
+  width: 100%;
+  background-color: black;
+  color: #f1f1f1;
+}
+
+.content8 #card8{
+  display: grid;
+  grid-template-columns: repeat(3,minmax(30%,auto));
+  position: static;
+  z-index: 0;
+  margin: 10px;
+}
+
+.content8 #card8 .c1{
+  line-height: 30px;
+  margin: 70px;
+  
+}
+
+.content8 #card8 ul li a{
+  text-decoration: none;
+  color: #f1f1f1;
+}
+.content8 #card8 .c1 ul,.list{
+  text-align: center;
+  margin-top: 20px;
+}
+.content8 #card8 .c1 ul li{
+  list-style-type: none;
+  text-decoration: none;
+}
+.content8 #card8 .c1 p{
+  color: #f9f9f9;
+}
+.content8 #card8 .c1>img{
+  justify-content: center;
+  margin-left: 90px;
+}
+
+
+
+
+
